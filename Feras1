@@ -1,0 +1,23 @@
+<html ng-app="">
+
+<head>
+
+    <title> Test Angular</title>
+</head>
+
+<body>
+
+    <H3>Nothing here {{'yet' + '!'}} {{1+90}}</H3>
+
+    <div class="container" data-ng-init ="names=['Feras','Name1', 'Name2']">
+        <h2>Names are listed:</h2>
+        <ol>
+            <li data-ng-repeat="name in names">{{ name }}</li>
+            
+        </ol>
+    </div>
+    <script src="angular.min.js"> </script>
+
+</body>
+
+</html>
