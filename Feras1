@@ -13,6 +13,7 @@
         <h2>Names are listed:</h2>
         <ol>
             <li data-ng-repeat="name in names">{{ name }}</li>
+            
         </ol>
     </div>
     <script src="angular.min.js"> </script>
